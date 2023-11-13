@@ -6,7 +6,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.Base_PO;
 import pageObject.Login_PO;
-import java.io.IOException;
 
 public class Login_Steps extends Base_PO {
 
