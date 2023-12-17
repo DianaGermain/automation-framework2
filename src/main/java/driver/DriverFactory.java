@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class DriverFactory {
 
-    private static final ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
+    private static final ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>(); //thread safety
 
     public static WebDriver getDriver() {
         if (webDriver.get() == null) {
